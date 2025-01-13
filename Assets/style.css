@@ -1,0 +1,22 @@
+:root{
+ --boo-primary: #4ea0ff;
+ --boo-secondary: #b1e5f2;
+}
+
+body{
+  width: 1057px;
+  margin: 0;
+}
+
+#site_header{
+  background-color: var(--boo-primary);
+  background-image: url(/Assets/img/pattern.png);
+  background-repeat: repeat-x;
+  background-size: 40%;
+  height: 100px;
+}
+
+#logo{
+  width: 200px;
+  position:absolute;
+}
