@@ -57,4 +57,29 @@ body {
 }
 
 ul {
-padding: 16px;}  
+  padding: 16px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: var(--boo-primary);
+  color: white;
+}
+
+tbody {
+  height: 50px;
+  font-weight: bold;
+}
+
+.ciano {
+  background-color: var(--boo-secondary);
+}
+
+.last_column {
+  width: 50%;
+}
