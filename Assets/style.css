@@ -26,6 +26,7 @@ body {
 
 .container {
   margin-left: 8px;
+  margin-right: 8px;
 }
 
 .container h1:first-child {
@@ -36,13 +37,15 @@ body {
   color: var(--boo-text-grey);
 }
 
-#author_credits p:first-child {
+#author_credits p {
   margin-top: 0;
+}
+
+#author_credits p:first-child {
   margin-bottom: 0;
 }
 
 #author_credits p:last-child {
-  margin-top: 0;
   margin-bottom: 24px;
   font-size: 70%;
 }
@@ -54,6 +57,10 @@ body {
 #images p {
   font-size: 75%;
   margin-top: 0;
+}
+
+.description span{
+  background-color: yellow;
 }
 
 ul {
@@ -73,6 +80,7 @@ thead {
 
 tbody {
   height: 50px;
+  font-size: 90%;
   font-weight: bold;
 }
 
@@ -82,4 +90,37 @@ tbody {
 
 .last_column {
   width: 50%;
+}
+
+#interests h4:first-child {
+  color: var(--boo-text-grey);
+  margin-bottom: 12px;
+}
+
+#img_1 {
+  color: white;
+  width: 208px;
+  height: 160px;
+  background-image: url(/Assets/img/monitor.jpg);
+  background-size: cover;
+  margin-bottom: 12px;
+}
+
+#img_2 {
+  color: white;
+  width: 208px;
+  height: 160px;
+  background-image: url(/Assets/img/graph.jpg);
+  background-size: cover;
+  margin-bottom: 44px;
+}
+
+#interests h3 {
+  margin-top: 0;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+footer {
+  text-align: center;
 }
