@@ -1,14 +1,14 @@
-:root{
- --boo-primary: #4ea0ff;
- --boo-secondary: #b1e5f2;
+:root {
+  --boo-primary: #4ea0ff;
+  --boo-secondary: #b1e5f2;
 }
 
-body{
+body {
   width: 1057px;
   margin: 0;
 }
 
-#site_header{
+#site_header {
   background-color: var(--boo-primary);
   background-image: url(/Assets/img/pattern.png);
   background-repeat: repeat-x;
@@ -16,7 +16,8 @@ body{
   height: 100px;
 }
 
-#logo{
+#logo {
+  position: relative;
   width: 200px;
-  position:absolute;
+  top: 40%;
 }
