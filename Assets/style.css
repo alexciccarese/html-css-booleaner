@@ -1,11 +1,12 @@
 :root {
   --boo-primary: #4ea0ff;
   --boo-secondary: #b1e5f2;
+  --boo-text-grey: #898989;
 }
 
 body {
   width: 1057px;
-  margin: 0;
+  margin: 0px;
 }
 
 #site_header {
@@ -20,4 +21,37 @@ body {
   position: relative;
   width: 200px;
   top: 40%;
+  margin-left: 8px;
+}
+
+.container {
+  margin-left: 8px;
+}
+
+.container h1:first-child {
+  margin-bottom: 0;
+}
+
+#author_credits {
+  color: var(--boo-text-grey);
+}
+
+#author_credits p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#author_credits p:last-child {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 70%;
+}
+
+#author {
+  color: var(--boo-primary);
+}
+
+#images p {
+  font-size: 75%;
+  margin-top: 0;
 }
