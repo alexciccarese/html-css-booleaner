@@ -6,22 +6,21 @@
 
 body {
   width: 1057px;
-  margin: 0px;
+  margin: 0;
 }
 
-#site_header {
+header {
+  position: relative;
+  padding-left: 8px;
+  padding-top: 40px;
+  height: 60px;
   background-color: var(--boo-primary);
   background-image: url(/Assets/img/pattern.png);
-  background-repeat: repeat-x;
   background-size: 40%;
-  height: 100px;
 }
 
 #logo {
-  position: relative;
   width: 200px;
-  top: 40%;
-  margin-left: 8px;
 }
 
 .container {
